@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="QENLYX">
+<defs>
+<linearGradient id="m" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#fdfdfe"/><stop offset=".2" stop-color="#d4d8de"/><stop offset=".42" stop-color="#8d939c"/><stop offset=".55" stop-color="#eef0f3"/><stop offset=".78" stop-color="#7c828b"/><stop offset="1" stop-color="#c3c7cd"/>
+</linearGradient>
+<linearGradient id="x" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#ffffff"/><stop offset=".35" stop-color="#b9bec5"/><stop offset=".6" stop-color="#f3f4f6"/><stop offset="1" stop-color="#6d737c"/>
+</linearGradient>
+<linearGradient id="e" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9aa0a8"/><stop offset="1" stop-color="#4a5058"/></linearGradient>
+</defs>
+<g stroke="url(#e)" stroke-width="1.6" stroke-linejoin="round">
+<path fill="url(#m)" fill-rule="evenodd" d="M104 22a84 84 0 1 0 61.9 140.8l-17.7-17.7A59 59 0 1 1 163 104h25A84 84 0 0 0 104 22z"/>
+<path fill="url(#x)" d="M134 128l18-18 31 31 31-31 18 18-31 31 31 31-18 18-31-31-31 31-18-18 31-31z"/>
+</g>
+</svg>

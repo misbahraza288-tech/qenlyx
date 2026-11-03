@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://misbahraza288-tech.github.io/qenlyx/sitemap.xml
