@@ -30,7 +30,7 @@ if (openEl && openEl !== el) close();
 lastBtn = btn; el.hidden = false; openEl = el;
 requestAnimationFrame(function () { el.classList.add('is-open'); });
 if (btn) btn.setAttribute('aria-expanded', 'true');
-if (id === 'menu') { body.style.overflow = 'hidden'; $$('.menu__a', el).forEach(function (a, i) { a.style.transitionDelay = (0.04 * i + 0.08) + 's'; }); }
+if (id === 'menu') { body.style.overflow = 'hidden'; $$('.menu__a', el).forEach(function (a, i) { a.style.transitionDelay = Math.min(0.02 * i + 0.05, 0.35) + 's'; }); }
 var f = $('button, a', el); if (f) setTimeout(function () { f.focus({ preventScroll: true }); }, 60);
 }
 function close() {
