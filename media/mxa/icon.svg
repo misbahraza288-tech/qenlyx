@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <title>Mxa AI</title>
+  <!-- Mxa AI mark: two strands = M, crossing = x. Strand 2 passes over strand 1 (weave gap via mask). -->
+  <defs>
+    <mask id="weave" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+      <rect x="-2" y="-2" width="28" height="28" fill="#fff"/>
+      <path d="M19 18 L19 6 L8.8 16.2" fill="none" stroke="#000" stroke-width="3.8" stroke-linejoin="round"/>
+    </mask>
+  </defs>
+  <rect width="1024" height="1024" rx="230.4" fill="#152840"/>
+  <g transform="translate(204.80 204.80) scale(25.6000)" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.3">
+    <path d="M5 18 L5 6 L15.2 16.2" stroke="#FFFFFF" mask="url(#weave)"/>
+    <path d="M19 18 L19 6 L8.8 16.2" stroke="#84B6E4"/>
+  </g>
+</svg>
